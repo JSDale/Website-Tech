@@ -1,0 +1,1 @@
+This is a website created for education purposes.
