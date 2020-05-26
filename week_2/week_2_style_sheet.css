@@ -22,7 +22,7 @@
 nav
 {
     background-color: #D13434;
-    padding: 0% 1% 1% 1%;
+    padding: 0% 1% 1% 5%;
     width: 98%; 
     text-align: center;
 }
@@ -57,4 +57,43 @@ article
 {
     width: 30%;
     float: left;
+}
+
+@media (max-width: 700px)
+{
+    h1
+    {
+        text-align: left;
+    }
+
+    article
+    {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    nav ul li
+    {
+        display: block;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0%;
+    }
+    
+    nav ul
+    {
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0%;
+        width: 100%;
+    }
+
+    nav
+    {
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0%;
+        text-align: left;
+    }
 }
