@@ -1,0 +1,22 @@
+#header1
+{
+    float: left;
+}
+
+nav
+{
+    padding: 1% 0% 0% 0%;
+    float: left;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+nav ul li
+{
+    display: inline;
+}
+
+nav ul li a
+{
+    color: gray;
+    text-decoration:underline;
+}
