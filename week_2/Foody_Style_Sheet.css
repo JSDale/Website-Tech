@@ -5,18 +5,40 @@
 
 nav
 {
-    padding: 1% 0% 0% 0%;
+    padding: 1% 0% 0% 15%;
     float: left;
     font-family: 'Arial Narrow', sans-serif;
+    font-size: 24px;
+    width: 50%;
 }
 
 nav ul li
 {
     display: inline;
+    padding: 0% 0% 0% 10%
+    
 }
 
 nav ul li a
 {
     color: gray;
-    text-decoration:underline;
+    text-decoration: none;
+}
+
+.underline
+{
+    color:gray;
+    text-decoration: none;
+    position: relative;
+}
+
+.underline::after
+{
+    content:'';
+    height: 2px;
+    width: 15px;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    top: 120%;
 }
