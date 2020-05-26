@@ -1,0 +1,111 @@
+.carousel
+{
+    position: relative;
+    height: 40%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel_image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container
+{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel_track
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel_slide
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel_button
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    margin-top: -75px;
+}
+
+.carousel_button--left
+{
+    left: -7%;
+    cursor: pointer;
+}
+
+.carousel_button--right
+{
+    left: 25%;
+    cursor: pointer;
+}
+
+.carousel_nav
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.carousel_indicator
+{
+    border: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 50px 12px;
+}
+
+.carousel_indicator.current-slide
+{
+    background-color: #757070;
+}
+
+
+
+
+
+<div class="carousel">
+            <button class="carousel_button carousel_button--left">
+                <img src="Icons/leftArrow.png" alt="left arrow">
+            </button>
+            <div class="carousel_track-container">
+                <ul class="carousel_track">
+                    <li class="carousel_slide">
+                        <img src="Icons/logo.png" alt="logo">
+                    </li>
+                    <li calss="carousel_slide">
+                        <img class="carousel_images" src="Icons/downloadIcon.png" alt="download button">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel_button carousel_button--right">
+                <img class="carousel_images" src="Icons/rightArrow.png" alt="right arrow">
+            </button>
+
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div>
+        </div>
+        <!--end of carousel div-->
