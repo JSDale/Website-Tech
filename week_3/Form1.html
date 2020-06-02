@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstForm</title>
+</head>
+<body>
+    <form action="/Website-Tech/week_3/Form1_Submitted.html" method="post">
+        <p> Name*:<input type="text"></input> </p>
+        <p> Email*:<input type="email"></input> </p>
+        <p> Number*:<input type="tel"></input> </p>
+        <div id ="selectyear">
+            what year are you in*:
+            <select id="years" name = "year">
+                <option value="">Select</option>
+                <option value="1589">1589</option>
+                <option value="2011">2001</option>
+                <option value="2002">2002</option>
+                <option value="1989">1989</option>
+            </select>
+        </div>
+        <div id="etron">
+            <label for="etronic_devices">  Which do you use the most?   </label>
+            <p><input type="radio" name="etronic_devices" value="Computer"> Computer</p>
+            <p> <input type="radio" name="etronic_devices" value="eReader"> eReader </p>
+            <p><input type="radio" name="etronic_devices" value="Smart Phone"> Smart Phone </p>
+        </div>
+        <div id="hoursPerDay">
+            <label for="hoursPerDay">  For how many hours?   </label>
+            <p><input type="radio" name="hoursPerDay" value="1 hour"> 1 hour</p>
+            <p> <input type="radio" name="hoursPerDay" value="2 hours"> 2 hours </p>
+            <p><input type="radio" name="hoursPerDay" value="3 hours or more"> 3 or more hours </p>
+        </div>
+        <div id="comments">
+            <p>Any other comments?</p>
+            <label for="comments"></label>
+            <textarea name="comments" rows = "5" cols = "25">
+
+            </textarea>
+        </div>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
