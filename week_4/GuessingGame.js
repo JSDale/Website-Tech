@@ -27,7 +27,7 @@ function NumberCompare(guess)
     }
     else
     {
-        document.getElementById("NumberCompareResult").innerHTML = "Correct!";
+        document.getElementById("NumberCompareResult").innerHTML = "Correct!";                   
     }
 }
 function NumberOfGuesses()
