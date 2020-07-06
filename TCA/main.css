@@ -107,10 +107,12 @@ nav
 }
 #txtArea_message_p
 {
-    width: 100%;
-    text-align: center;
+    margin-top: 0.80%;
+    float: left;
+    margin-right: 4%;
+    margin-left: 23.75%;
 }
 #txtArea_message
 {
-    
+    margin-top: 1%;
 }
