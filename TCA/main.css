@@ -31,33 +31,86 @@ nav
     text-align: center;
     padding-right: 13%;
 }
-footer
+#page_footer
 {
+    float: left;
     text-align: center;
+    width: 100%;
+    background-color: rgb(187, 200, 214);
 }
 #section_1
 {
     float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
     background-color: rgb(170, 181, 194);
 }
 #section_2
 {
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     float: left;
+    width: 40%;
     background-color: rgb(170, 181, 194);
 }
-/*#section_3
+#section_3
 {
+    margin-top: 2%;
     float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
     background-color: rgb(170, 181, 194);
 }
 #section_4
 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     float: left;
+    width: 40%;
     background-color: rgb(170, 181, 194);
 }
 #section_5
 {
+    margin-top: 2%;
     float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 4%;
+    width: 50%;
     background-color: rgb(170, 181, 194);
+}
+#first_name
+{
+    width: 100%;
+    text-align: center;
+}
+#txt_first_name
+{
+    margin-left: 0.25%;
+}
+#last_name
+{
+    width: 100%;
+    text-align: center;
+}
+#email
+{
+    width: 100%;
+    text-align: center;
+}
+#txt_email
+{
+    margin-left: 6.75%;
+}
+#txtArea_message_p
+{
+    width: 100%;
+    text-align: center;
+}
+#txtArea_message
+{
+    
 }
