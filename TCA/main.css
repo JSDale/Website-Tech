@@ -86,7 +86,7 @@ nav
 #first_name
 {
     width: 100%;
-    text-align: center;
+    padding-left: 2%;
 }
 
 #txt_first_name
@@ -96,7 +96,39 @@ nav
 
 #last_name
 {
+    padding-left: 2%;
     width: 100%;
-    text-align: center;
+}
+
+#span_last_name
+{
+    margin-left: 2px;
+}
+
+#p_email
+{
+    padding-left: 2%;
+}
+
+#span_email
+{
+    margin-left: 40px;
+}
+
+#txtArea_message_p
+{
+    padding-left: 2%;
+}
+
+#message_txt
+{
+    bottom: 66px;
+    position: relative;
+    
+}
+
+#span_message
+{
+    padding-left: 15px;
 }
 
