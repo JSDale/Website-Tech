@@ -20,7 +20,7 @@
         </div>
         <div id="main_section">
             <h1 id="main_section_header">
-                
+                Heading 1
             </h1>
             <div id="sections">
                 <div id="section_1">
@@ -47,11 +47,16 @@
                     <h1>
                         Contact Us
                     </h1>
-                    <form id="contact_us">
+                    <form id="contact_us" action="">
                         <p>first_name: <input type="text" required></input></p>
                         <p>last_name: <input type="text" required></input></p>
                         <p>email: <input type="email" required></input></p>
-                        <p>message: <input type="text area"></input></p>
+                        <div id="txtArea_message_div">
+                            <textarea name="message" id="txtArea_message"></textarea>
+                        </div>
+                        <p>
+                            <input type="submit" value="Send Message">
+                        </p>
                     </form>
                 </div>
             </div>
