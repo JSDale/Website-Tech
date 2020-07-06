@@ -82,37 +82,21 @@ nav
     width: 50%;
     background-color: rgb(170, 181, 194);
 }
+
 #first_name
 {
     width: 100%;
     text-align: center;
 }
+
 #txt_first_name
 {
     margin-left: 0.25%;
 }
+
 #last_name
 {
     width: 100%;
     text-align: center;
 }
-#email
-{
-    width: 100%;
-    text-align: center;
-}
-#txt_email
-{
-    margin-left: 6.75%;
-}
-#txtArea_message_p
-{
-    margin-top: 0.80%;
-    float: left;
-    margin-right: 4%;
-    margin-left: 23.75%;
-}
-#txtArea_message
-{
-    margin-top: 1%;
-}
+

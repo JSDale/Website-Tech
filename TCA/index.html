@@ -49,26 +49,25 @@
                     <form id="contact_us" action="">
                         <p id="first_name">First Name: <input type="text" required id="txt_first_name"></input></p>
                         <p id="last_name"> Last Name: <input type="text" required id="txt_last_name"></input></p>
-                        <p id ="email">Email: <input type="email" required id="txt_email"></input></p>
+                        <p id ="p_email">
+                            Email: 
+                            <p id="email_txt_wrapper">
+                                <input type="email" required id="txt_email"></input>
+                            </p>
+                        </p>
                         <p id="txtArea_message_p">
-                           Message:
+                           Message: <textarea name="message" id="txtArea_message" cols="22" rows="5"></textarea>
                         </p>
-                        <p id="txtArea_message">
-                            <textarea name="message" id="txtArea_message" cols="22" rows="5"></textarea>
-                        </p>
-                        </div>
-                        <p>
-                            <input type="submit" value="Send Message">
-                        </p>
+                        <input type="submit" value="Send Message">
                     </form>
-                </div id="section_5">
-            </div id="sections">
-        </div id="main_section">
-        <div id="page_footer">
-            <p1 id="footer_text">
-                Copyright ACME Corp
-            </p1>
+                </div>
+            </div>
+            <div id="page_footer">
+                <p1 id="footer_text">
+                    Copyright ACME Corp
+                </p1>
+            </div>
         </div>
-    </div id="page">
+    </div>
 </body>
 </html>
