@@ -1,4 +1,10 @@
-.h1
+#h1
 {
     text-align: center;
+}
+#page
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    background-color: aqua;
 }
