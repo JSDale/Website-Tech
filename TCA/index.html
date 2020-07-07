@@ -48,9 +48,11 @@
                     </h1>
                     <form id="contact_us" action="">
                         <p id="first_name">First Name: <input type="text" required id="txt_first_name"></input></p>
-                        <p id="last_name"> Last Name:  <span id="span_last_name"><input type="text" required id="txt_last_name"></input></span></p>
+                        <p id="last_name"> Last Name:  <span id="span_last_name"><input type="last_name" required id="txt_last_name"></input></span></p>
                         <p id ="p_email">  Email:      <span id="span_email"></span><input type="email" required id="txt_email"></input></span></p>
-                        <p id="txtArea_message_p"> <span id="message_txt"> Message: </span> <span id="span_message"><textarea name="message" id="txtArea_message" cols="22" rows="5"></textarea></span></p>
+                        <div id="message_wrapper">
+                            <p id="txtArea_message_p"> <span id="message_txt"> Message: </span> <span id="span_message"><textarea name="message" id="txtArea_message" cols="23" rows="5"></textarea></span></p>
+                        </div>
                         <input id="button" type="submit" value="Send Message">
                     </form>
                 </div>

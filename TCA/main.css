@@ -16,6 +16,8 @@ body
 #sections
 {
     background-color: rgb(187, 200, 214);
+    height: 50%;
+    display: inline-block;
 }
 nav ul li
 {
@@ -124,7 +126,6 @@ nav
 {
     bottom: 66px;
     position: relative;
-    
 }
 
 #span_message
@@ -135,4 +136,129 @@ nav
 #button
 {
    margin-left: 135px;
+}
+
+@media (max-width: 400px)
+{
+    #section_1
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #section_2
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    #section_3
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #section_4
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #section_5
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 690px)
+{
+    #message_txt
+    {
+        bottom: 0%;
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #span_message
+    {
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #txtArea_message
+    {
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #first_name
+    {
+        width: 100%;
+        padding-left: 0%;
+    }
+    #txt_first_name
+    {
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #last_name
+    {
+        padding-left: 0%;
+        width: 100%;
+    }
+    #txt_last_name
+    {
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #span_last_name
+    {
+        margin-left: 0px;
+    }
+    #p_email
+    {
+        width: 100%;
+        padding-left: 0%;
+    }
+    #txt_email
+    {
+        width: 98%;
+        margin-right: 0%;
+        border-right: 2%;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: 2%;
+    }
+    #span_email
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #button
+    {
+        width: 100%;
+        margin-left: unset;
+    }
+
 }
