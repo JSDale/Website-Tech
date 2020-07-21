@@ -1,0 +1,31 @@
+#MainPage
+{
+    /*background-color: rgb(188, 136, 255);*/
+    height: 100%;
+    width: 100%;
+}
+#Logo
+{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(188, 136, 255);
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+#Home
+{
+    background-color: rgb(188, 136, 255);
+    width: 100%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#HomeHeading
+{
+    font-size: 72px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    font-family: ;
+}
