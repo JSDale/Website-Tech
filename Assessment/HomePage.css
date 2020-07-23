@@ -34,7 +34,7 @@ h1
 {
     background-image: linear-gradient( rgb(188, 160, 255), rgb(188, 165, 255),  rgb(188, 160, 255));
     width: 99.25%;
-    height: 900px;
+    height: 850px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     padding-left: 0.75%;
@@ -56,7 +56,7 @@ h1
 {
     background-image: linear-gradient(rgb(188, 160, 255),  rgb(188, 153, 255), rgb(188, 136, 255));
     width: 99.25%;
-    height: 900px;
+    height: 850px;
     padding-left: 0.75%;
 }
 #LatestPhotosH1
@@ -110,12 +110,25 @@ h1
 
     #HamIconText
     {
-        margin-top: 0;
+        font-size: 80px;
     }
 
     #HomeHeading
     {
         max-width: 80%;;
+    }
+
+    #MenuBar
+    {
+        float: left;
+    }
+
+    nav ul li a
+    {
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
