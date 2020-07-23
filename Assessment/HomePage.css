@@ -2,6 +2,7 @@
 {
     height: 100%;
     width: 100%;
+    min-width: 300px;
 }
 #Logo
 {
@@ -79,6 +80,15 @@ h1
     height: 100%;
 }
 
+@media(max-width: 937px)
+{
+    #LogoImg
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
 @media(max-width: 768px)
 {
     .Menu
@@ -90,6 +100,17 @@ h1
     {
         display: block;
     }
+
+    .HamIcon
+    {
+        display: flex;
+        float: left;
+    }
+
+    nav
+    {
+        float: left;
+    };
 }
 
 @media(min-width: 769px)
@@ -97,5 +118,34 @@ h1
     .HamIcon
     {
         display: none;
+    }
+
+    .Menu
+    {
+        max-width: 100%;
+        display: inline;
+        align-content: center;
+    }
+
+    nav ul li
+    {
+        display: inline;
+        font-size: 24px;
+        padding: 0% 0% 0% 10%;
+        max-width: 100%;
+        align-content: center;
+    }
+
+    nav ul li a
+    {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #MenuBar
+    {
+        background-color: rgb(188, 136, 255);
+        margin-top: 4px;
     }
 }
