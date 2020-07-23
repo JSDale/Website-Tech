@@ -74,3 +74,28 @@ h1
     font-size: 24px;
     color: white;
 }
+#SocialMediaLinkSpan
+{
+    height: 100%;
+}
+
+@media(max-width: 768px)
+{
+    .Menu
+    {
+        display: none;
+    }
+
+    .Menu.toggleCls
+    {
+        display: block;
+    }
+}
+
+@media(min-width: 769px)
+{
+    .HamIcon
+    {
+        display: none;
+    }
+}
