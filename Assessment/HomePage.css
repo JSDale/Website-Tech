@@ -88,7 +88,38 @@ h1
     }
 }
 
-@media(max-width: 768px)
+.Menu
+    {
+        max-width: 100%;
+        display: inline;
+        align-content: center;
+        background-color:  ;
+    }
+
+    nav ul li
+    {
+        display: inline;
+        font-size: 24px;
+        padding: 0% 0% 0% 10%;
+        max-width: 100%;
+    }
+
+    nav ul li a
+    {
+        max-width: 100%;
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #MenuBar
+    {
+        background-color: rgb(188, 136, 255);
+        margin-top: 4px;
+    }
+
+/*@media(max-width: 768px)
 {
     .Menu
     {
@@ -197,4 +228,4 @@ h1
         max-height: 100%;
     }
     
-}
+}this was used for hamburger menu. I couldnt getting looking how i wanted it.*/
