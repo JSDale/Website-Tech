@@ -1,7 +1,9 @@
 #MainPage
 {
     height: 100%;
-    width: 100%;
+    width: 70%;
+    align-content: center;
+    padding-left: 15%;
 }
 #Logo
 {
@@ -21,7 +23,7 @@
 }
 h1
 {
-    font-size: 112px;
+    font-size: 72px;
     text-align: center;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
@@ -75,46 +77,6 @@ h1
     height: 100%;
 }
 
-@media(max-width: 937px)
-{
-    #LogoImg
-    {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    nav ul li 
-    {
-        text-align: center;
-        font-size: 18px;
-    }
-
-    nav ul li a
-    {
-        font-size: 18px;
-    }
-
-    #HomeHeading
-    {
-        font-size: 40px;
-    }
-
-    #LatestBlogH1
-    {
-        font-size: 32px;
-    }
-
-    #LatestBlogText
-    {
-        font-size: 18px;
-    }
-
-    #LatestPhotosH1
-    {
-        font-size: 32px;
-    }
-}
-
 .Menu
 {
     max-width: 100%;
@@ -143,10 +105,27 @@ nav ul li a
 {
     background-color: rgb(188, 136, 255);
     margin-top: 4px;
+    text-align: center;
 }
 
 @media(max-width: 770px)
 {
+    #WholePage
+    {
+        width: 100%;
+    }
+
+    #MainPage
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #LogoImg
+    {
+        max-width: 100%;
+    }
+
     .Menu
     {
         display: none;
@@ -165,15 +144,45 @@ nav ul li a
         font-size: 32px;
         margin-top: 0;
         margin-bottom: 0;
+        padding-top: 0;
         float: right;
         padding-right: 5%;
         color: white;
+    }
+
+    #MenuBar
+    {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        background-color: rgb(188, 160, 255);
     }
 
     #HomeHeading
     {
         max-width: 100%;
         padding-left: 8%;
+    }
+
+    h1
+    {
+        font-size: 32px;
+    }
+
+    #LatestBlogH1
+    {
+        font-size: 28px;
+    }
+
+    #LatestBlogText
+    {
+        font-size: 20px;
+    }
+
+    #LatestPhotosH1
+    {
+        font-size: 28px;
     }
 }
 
