@@ -120,6 +120,7 @@ nav ul li a
 {
     #WholePage
     {
+        height: 100%;
         width: 100%;
     }
 
@@ -132,6 +133,13 @@ nav ul li a
     #LogoImg
     {
         max-width: 100%;
+    }
+
+    #MenuWrapper
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
 
     .Menu

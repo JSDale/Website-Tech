@@ -121,6 +121,13 @@ max-height: 100%;
         max-width: 100%;
     }
 
+    #MenuWrapper
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
     .Menu
     {
         display: none;
