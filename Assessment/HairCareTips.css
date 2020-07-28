@@ -81,6 +81,12 @@ h1
     margin-bottom: 0;
     padding-left: 2%;
 }
+#InstaLink
+{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
 
 .Menu
 {
@@ -212,6 +218,17 @@ nav ul li a
     #HairProductsH1
     {
         font-size: 28px;
+    }
+
+    #SocialMediaLinkText
+    {
+        color: white;
+        font-size: 16px;
+    }
+
+    #InstaLink
+    {
+        font-size: 16px;
     }
 }
 

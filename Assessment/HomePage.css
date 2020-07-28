@@ -82,6 +82,13 @@ h1
     padding-left: 2%;
 }
 
+#InstaLink
+{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
 .Menu
 {
     max-width: 100%;
@@ -213,6 +220,17 @@ nav ul li a
     #LatestPhotosH1
     {
         font-size: 28px;
+    }
+
+    #SocialMediaLinkText
+    {
+        color: white;
+        font-size: 16px;
+    }
+
+    #InstaLink
+    {
+        font-size: 16px;
     }
 }
 
