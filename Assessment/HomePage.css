@@ -162,6 +162,13 @@ nav ul li a
         background-color: rgb(188, 160, 255);
     }
 
+    nav ul li
+    {
+        display: inline;
+        font-size: 18px;
+        padding: 0% 2% 0% 2%;
+    }   
+
     #HomeHeading
     {
         max-width: 100%;
