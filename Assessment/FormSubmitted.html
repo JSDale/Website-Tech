@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="FormSubmitted.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Submitted</title>
+    <title>Form Submitted</title>
 </head>
 <body>
-    <h1>Thank you for submitting. I will be in contact with you soon :).</h1>
+    <div id="WholePage">
+        <div id="Logo">
+            <img id="LogoImg" src = "JadieLavender_Logo.png" alt = "Jadie Lavender Logo.">
+        </div> <!end of logo>
+        <div id="MenuWrapper">
+            <div class="HamIcon" onclick="toggleClass()">
+                <h2 id="HamIconText"> &#9776; </h2>
+            </div>
+            <div id="MenuBar">
+                <nav id="nav">
+                    <ul class="Menu">
+                        <li><a href="HomePage.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="HairCareTips.html">Hair Care Tips</a></li>
+                        
+                    </ul>
+                </nav>
+            </div> <!MenuBar end>
+            <div id="FormSubmitted">
+                <h1 id="FormSubmittedHeading">Thank you, I will get in touch soon!</h1>
+            </div> <!end of FormSubmitted>
+        </div> <!end of MenuWrapper>
+        <div id ="SocialMediaLink">
+            <p id="SocialMediaLinkText">Follow me on Instagram: 
+            <a id="InstaLink" href="https://www.instagram.com/jadie_lavender/?hl=en">@jadie_lavender</a>
+            </p>        
+        </div>
+    </div><!end of WholePage>
+    <script src="HamburgerMenu.js"></script>
 </body>
 </html>
