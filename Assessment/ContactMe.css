@@ -1,0 +1,244 @@
+#MainPage
+{
+    height: 100%;
+    width: 70%;
+    align-content: center;
+    padding-left: 15%;
+}
+#Logo
+{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(188, 136, 255);
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+#Home
+{
+    background-image: linear-gradient( rgb(188, 136, 255), rgb(188, 153, 255), rgb(188, 160, 255));
+    width: 100%;
+    height: 70%;
+}
+h1
+{
+    font-size: 72px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+#HowToContact
+{
+    background-image: linear-gradient( rgb(188, 160, 255), rgb(188, 165, 255),  rgb(188, 160, 255));
+    width: 99.25%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-left: 0.75%;
+    margin-right: 0;
+}
+#HowToContactH1
+{
+    font-size: 60px;
+    text-align: left;
+    margin-right: 0;
+}
+#HowToContactText
+{
+    margin-right: 0;
+    padding-left: 1%;
+    color: white;
+}
+#GetInContact
+{
+    background-image: linear-gradient(rgb(188, 160, 255),  rgb(188, 153, 255), rgb(188, 136, 255));
+    width: 99.25%;
+    height: 850px;
+    padding-left: 0.75%;
+}
+#GetInContactH1
+{
+    font-size: 60px;
+    text-align: left;
+    margin-right: 0;
+}
+#SocialMediaLink
+{
+    background-color: rgb(188, 136, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#SocialMediaLinkText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 2%;
+}
+
+#InstaLink
+{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.Menu
+{
+    max-width: 100%;
+    display: inline;
+    align-content: center;
+    padding-left: 0;
+}
+
+nav ul li
+{
+    display: inline;
+    font-size: 24px;
+    padding: 0% 10% 0% 10%;
+}
+
+nav ul li a
+{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MenuBar
+{
+    background-color: rgb(188, 136, 255);
+    margin-top: 4px;
+    text-align: center;
+    margin-top: 4px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media(max-width: 770px)
+{
+    #WholePage
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    #MainPage
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #LogoImg
+    {
+        max-width: 100%;
+    }
+
+    #MenuWrapper
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .Menu
+    {
+        display: none;
+        text-decoration: none;
+    }
+
+    .Menu.toggleCls
+    {
+        display: block;
+        text-decoration: none;
+        padding-left: 0;
+    }
+
+    #HamIconText
+    {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        float: right;
+        padding-right: 5%;
+        color: white;
+    }
+
+    #MenuBar
+    {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        background-color: rgb(188, 160, 255);
+    }
+
+    nav ul
+    {
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+    }
+
+    nav ul li
+    {
+        display: inline;
+        font-size: 18px;
+        padding: 0% 2% 0% 2%;
+    }   
+
+    #HomeHeading
+    {
+        max-width: 100%;
+        padding-left: 8%;
+    }
+
+    h1
+    {
+        font-size: 32px;
+    }
+
+    #HowToContactH1
+    {
+        font-size: 28px;
+    }
+
+    #HowToContactText
+    {
+        font-size: 20px;
+    }
+
+    #GetInContactH1
+    {
+        font-size: 28px;
+    }
+
+    #SocialMediaLinkText
+    {
+        color: white;
+        font-size: 16px;
+    }
+
+    #InstaLink
+    {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 769px)
+{
+    .HamIcon
+    {
+        display: none;
+    }
+    
+}
