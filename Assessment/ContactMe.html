@@ -46,22 +46,24 @@
             </div> <!end of HowToContact>
             <div id="GetInContact">
                 <h1 id="GetInContactH1">Get In Contact</h1>
-                <form id="GetInContactFrm" action="FormSubmitted.html" method="post">
+                <form id="GetInContactFrm" onsubmit="event.preventDefault(); ValidateForm();">
                     <p id="formText">Name*</p>  <input type="text" required></input>
                     <p id="formText">Email*</p><input type="email" required></input>
                     <p id="formText">Age</p><input type="number"></input>
                     <p id="formText">
                         <p id="HairTypeInput">Hair type*</p>
                         <div id="CheckBoxes">
-                            <p id="CheckBox">Curly <input type="checkbox"></input></p>
-                            <p id="CheckBox">Straight <input type="checkbox"></input></p>
-                            <p id="CheckBox">Thick <input type="checkbox"></input></p>
-                            <p id="CheckBox">Thin<input type="checkbox"></input></p>
-                            <p id="CheckBox">Matte <input type="checkbox"></input></p>
-                            <p id="CheckBox">Shiny <input type="checkbox"></input></p>
+                            <p id="CheckBox">Curly <input id="CheckBox1" type="checkbox"></input></p>
+                            <p id="CheckBox">Straight <input id="CheckBox2" type="checkbox"></input></p>
+                            <p id="CheckBox">Thick <input id="CheckBox3" type="checkbox"></input></p>
+                            <p id="CheckBox">Thin<input id="CheckBox4" type="checkbox"></input></p>
+                            <p id="CheckBox">Matte <input id="CheckBox5" type="checkbox"></input></p>
+                            <p id="CheckBox">Shiny <input id="CheckBox6" type="checkbox"></input></p>
                         </div>
-                        
                     </p>
+                    <p>Any other comments?</p>
+                    <label for="AdditionalComments"></label>
+                    <textarea name="comments" rows = "7" cols = "70"></textarea>
                     <p><button>Submit</button></p>
                 </form>
             </div>
@@ -73,5 +75,6 @@
         </div>
     </div><!end of WholePage>
     <script src="HamburgerMenu.js"></script>
+    <script src="Validation.js"></script>
 </body>
 </html>
