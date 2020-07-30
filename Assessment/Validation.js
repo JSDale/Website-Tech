@@ -6,9 +6,9 @@ function ValidateForm()
     {
         alert("Please select at least one hair type");
         console.log("Returning False");
+        event.preventDefault();
         return false;
     }
-    alert("Submitted")
     return true;
 }
 
@@ -32,11 +32,10 @@ function ValidateCheckBoxes()
         if(CheckBoxes[i] == true)
         {
             console.log("true");
-
             return true;
         }
-
-        console.log("false");
-        return false;
     }
+    
+    console.log("false");
+    return false;
 }
