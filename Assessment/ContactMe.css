@@ -57,14 +57,35 @@ h1
 {
     background-image: linear-gradient(rgb(188, 160, 255),  rgb(188, 153, 255), rgb(188, 136, 255));
     width: 99.25%;
-    height: 850px;
+    height: 600px;
     padding-left: 0.75%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #GetInContactH1
 {
     font-size: 60px;
     text-align: left;
     margin-right: 0;
+}
+#GetInContactFrm
+{
+    padding-left: 4%;
+}
+#HairTypeInput
+{
+    margin-bottom: 0;
+}
+#CheckBoxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    vertical-align: auto;
+}
+#CheckBox
+{
+    padding-right: 2%;
 }
 #SocialMediaLink
 {
@@ -81,14 +102,12 @@ h1
     margin-bottom: 0;
     padding-left: 2%;
 }
-
 #InstaLink
 {
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
-
 .Menu
 {
     max-width: 100%;
@@ -96,14 +115,12 @@ h1
     align-content: center;
     padding-left: 0;
 }
-
 nav ul li
 {
     display: inline;
     font-size: 24px;
     padding: 0% 10% 0% 10%;
 }
-
 nav ul li a
 {
     width: 100%;
@@ -112,7 +129,6 @@ nav ul li a
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #MenuBar
 {
     background-color: rgb(188, 136, 255);
@@ -122,7 +138,6 @@ nav ul li a
     max-width: 100%;
     max-height: 100%;
 }
-
 @media(max-width: 770px)
 {
     #WholePage
@@ -130,38 +145,32 @@ nav ul li a
         height: 100%;
         width: 100%;
     }
-
     #MainPage
     {
         width: 100%;
         padding-left: 0;
     }
-
     #LogoImg
     {
         max-width: 100%;
     }
-
     #MenuWrapper
     {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
-
     .Menu
     {
         display: none;
         text-decoration: none;
     }
-
     .Menu.toggleCls
     {
         display: block;
         text-decoration: none;
         padding-left: 0;
     }
-
     #HamIconText
     {
         font-size: 32px;
@@ -172,7 +181,6 @@ nav ul li a
         padding-right: 5%;
         color: white;
     }
-
     #MenuBar
     {
         float: left;
@@ -181,64 +189,65 @@ nav ul li a
         margin-top: 0;
         background-color: rgb(188, 160, 255);
     }
-
     nav ul
     {
         border-style: solid;
         border-width: 1px;
         border-color: white;
     }
-
     nav ul li
     {
         display: inline;
         font-size: 18px;
         padding: 0% 2% 0% 2%;
-    }   
-
+    }
     #HomeHeading
     {
         max-width: 100%;
         padding-left: 8%;
     }
-
     h1
     {
         font-size: 32px;
     }
-
     #HowToContactH1
     {
         font-size: 28px;
     }
-
     #HowToContactText
     {
         font-size: 20px;
     }
-
+    #GetInContact
+    {
+        height: 700px;
+    }
     #GetInContactH1
     {
         font-size: 28px;
     }
-
+    #CheckBoxes
+    {
+        display: block;
+    }
+    #Curly
+    {
+        padding-left: 2%;
+    }
     #SocialMediaLinkText
     {
         color: white;
         font-size: 16px;
     }
-
     #InstaLink
     {
         font-size: 16px;
     }
 }
-
 @media(min-width: 769px)
 {
     .HamIcon
     {
         display: none;
     }
-    
 }

@@ -47,17 +47,20 @@
             <div id="GetInContact">
                 <h1 id="GetInContactH1">Get In Contact</h1>
                 <form id="GetInContactFrm" action="FormSubmitted.html" method="post">
-                    <p>Name:  <input type="text"></input></p>
-                    <p>Email: <input type="email"></input></p>
-                    <p>Age:   <input type="number"></input></p>
-                    <p>
-                        Hair type<br>
-                        Curly <input type="checkbox"></input><br>
-                        Straight <input type="checkbox"></input><br>
-                        Thick <input type="checkbox"></input><br>
-                        Thin <input type="checkbox"></input><br>
-                        Matte <input type="checkbox"></input><br>
-                        Shiny <input type="checkbox"></input>
+                    <p id="formText">Name*</p>  <input type="text" required></input>
+                    <p id="formText">Email*</p><input type="email" required></input>
+                    <p id="formText">Age</p><input type="number"></input>
+                    <p id="formText">
+                        <p id="HairTypeInput">Hair type*</p>
+                        <div id="CheckBoxes">
+                            <p id="CheckBox">Curly <input type="checkbox"></input></p>
+                            <p id="CheckBox">Straight <input type="checkbox"></input></p>
+                            <p id="CheckBox">Thick <input type="checkbox"></input></p>
+                            <p id="CheckBox">Thin<input type="checkbox"></input></p>
+                            <p id="CheckBox">Matte <input type="checkbox"></input></p>
+                            <p id="CheckBox">Shiny <input type="checkbox"></input></p>
+                        </div>
+                        
                     </p>
                     <p><button>Submit</button></p>
                 </form>
