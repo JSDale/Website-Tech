@@ -31,6 +31,12 @@ h1
     margin-top: 4px;
     margin-bottom: 0;
 }
+h2
+{
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #LatestBlog
 {
     background-image: linear-gradient( rgb(188, 160, 255), rgb(188, 165, 255),  rgb(188, 160, 255));
