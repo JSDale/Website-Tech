@@ -87,7 +87,7 @@ h1
     margin-bottom: 0;
 }
 
-#CheckBoxes
+.CheckBoxes
 {
     display: flex;
     align-items: center;
@@ -95,7 +95,7 @@ h1
     vertical-align: auto;
 }
 
-#CheckBox
+.CheckBox
 {
     padding-right: 2%;
 }
@@ -262,7 +262,7 @@ nav ul li a
         font-size: 28px;
     }
 
-    #CheckBoxes
+    .CheckBoxes
     {
         display: block;
     }

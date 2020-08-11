@@ -10,7 +10,7 @@
     <div id="WholePage">
         <div id="Logo">
             <img id="LogoImg" src = "JadieLavender_Logo.png" alt = "Jadie Lavender Logo.">
-        </div> <!end of logo>
+        </div>
         <div id="MenuWrapper">
             <div class="HamIcon" onclick="toggleClass()">
                 <h2 id="HamIconText"> &#9776; </h2>
@@ -23,11 +23,11 @@
                         <li><a href="HomePage.html">Home</a></li>
                     </ul>
                 </nav>
-            </div> <!MenuBar end>
+            </div>
             <div id="Home">
                 <h1 id="HomeHeading">ContactMe</h1>
-            </div> <!end of Home>
-        </div> <!end of MenuWrapper>
+            </div>
+        </div>
         <div id="MainPage">
             <div id="HowToContact">
                 <h1 id="HowToContactH1">How To Contact Me</h1>
@@ -35,37 +35,34 @@
                     Please fill in the form below and press submit once complete. The asterixed fields show compulsroy completion.<br>
                     Once the form has been submitted I will be able to contact you ASAP. Thank you!
                 </p>
-            </div> <!end of HowToContact>
+            </div>
             <div id="GetInContact">
                 <h1 id="GetInContactH1">Get In Contact</h1>
                 <form id="GetInContactFrm" action="FormSubmitted.html" onsubmit="ValidateForm();">
-                    <p id="formText">Name*</p>  <input type="text" required></input>
-                    <p id="formText">Email*</p><input type="email" required></input>
-                    <p id="formText">Age*</p><input id="Age" type="number" required></input>
-                    <p id="formText">
-                        <p id="HairTypeInput">Hair type*</p>
-                        <div id="CheckBoxes">
-                            <p id="CheckBox">Curly <input id="CheckBox1" type="checkbox"></input></p>
-                            <p id="CheckBox">Straight <input id="CheckBox2" type="checkbox"></input></p>
-                            <p id="CheckBox">Thick <input id="CheckBox3" type="checkbox"></input></p>
-                            <p id="CheckBox">Thin<input id="CheckBox4" type="checkbox"></input></p>
-                            <p id="CheckBox">Matte <input id="CheckBox5" type="checkbox"></input></p>
-                            <p id="CheckBox">Shiny <input id="CheckBox6" type="checkbox"></input></p>
-                        </div>
-                    </p>
+                    <p>Name*</p>  <input type="text" required>
+                    <p>Email*</p><input type="email" required>
+                    <p>Age*</p><input id="Age" type="number" required>
+                    <p id="HairTypeInput">Hair type*</p>
+                    <div class="CheckBoxes">
+                        <p class="CheckBox">Curly <input class="CheckBox1" type="checkbox"></p>
+                        <p class="CheckBox">Straight <input class="CheckBox2" type="checkbox"></p>
+                        <p class="CheckBox">Thick <input class="CheckBox3" type="checkbox"></p>
+                        <p class="CheckBox">Thin<input class="CheckBox4" type="checkbox"></p>
+                        <p class="CheckBox">Matte <input class="CheckBox5" type="checkbox"></p>
+                        <p class="CheckBox">Shiny <input class="CheckBox6" type="checkbox"></p>
+                    </div>
                     <p>Any other comments?</p>
-                    <label for="AdditionalComments"></label>
                     <textarea id="comments" name="comments" rows = "7" cols = "60"></textarea>
                     <p><button>Submit</button></p>
                 </form>
             </div>
-        </div> <!end of MainPage>
+        </div>
         <div id ="SocialMediaLink">
             <p id="SocialMediaLinkText">Follow me on Instagram: 
             <a id="InstaLink" href="https://www.instagram.com/jadie_lavender/?hl=en">@jadie_lavender</a>
             </p>        
         </div>
-    </div><!end of WholePage>
+    </div>
     <script src="HamburgerMenu.js"></script>
     <script src="Validation.js"></script>
 </body>

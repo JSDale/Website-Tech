@@ -1,17 +1,15 @@
-function ValidateForm()
-{
+function ValidateForm() {
     var checkBoxesChecked = true;
     var checkBoxesChecked = ValidateCheckBoxes();
     var ageIsgreaterThan15 = ValidateAge();
-    if(checkBoxesChecked == false)
-    {
+    if(checkBoxesChecked == false) {
         alert("Please select at least one hair type");
         console.log("Returning False");
         event.preventDefault();
         return false;
     }
-    if(ageIsgreaterThan15 == false)
-    {
+
+    if(ageIsgreaterThan15 == false) {
         alert("You msut be at least 16 years old");
         console.log("Returning False");
         event.preventDefault();
@@ -20,8 +18,8 @@ function ValidateForm()
     return true;
 }
 
-function ValidateCheckBoxes()
-{
+function ValidateCheckBoxes() {
+
     console.log("ValidateCheckBoxes");
     var checkBox1 = document.getElementById("CheckBox1");
     var checkBox2 = document.getElementById("CheckBox2");
@@ -33,8 +31,7 @@ function ValidateCheckBoxes()
     var CheckBoxes = [checkBox1.checked, checkBox2.checked, checkBox3.checked, checkBox4.checked, checkBox5.checked, checkBox6.checked];
 
     console.log("Outfor");
-    for(var i = 0; i < 6; i++)
-    {
+    for(var i = 0; i < 6; i++) {
         console.log("infor");
 
         if(CheckBoxes[i] == true)
@@ -48,8 +45,7 @@ function ValidateCheckBoxes()
     return false;
 }
 
-function ValidateAge()
-{
+function ValidateAge() {
     console.log("Age Checker");
     var age = document.getElementById("Age").value;
     console.log(age);
