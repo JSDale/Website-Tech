@@ -88,18 +88,18 @@ h2
     margin-right: 0;
 }
 
-#PhotoContainerRow
+.PhotoContainerRow
 {
     display: flex;
 }
 
-#PhotoContainerColumn
+.PhotoContainerColumn
 {
     flex: 33.33%;
     padding: 2px;
 }
 
-#RecentImg
+.RecentImg
 {
     width: 100%;
 }
