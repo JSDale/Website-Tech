@@ -230,6 +230,11 @@ nav ul li a
     {
         display: block;
     }
+    #comments
+    {
+        height: 6em;
+        width: 20em;
+    }
     #SocialMediaLinkText
     {
         color: white;
