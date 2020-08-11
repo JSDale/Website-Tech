@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
 }
+
 #Logo
 {
     height: 30%;
@@ -13,12 +14,14 @@
     border-bottom: 0;
     padding-bottom: 0;
 }
+
 #FormSubmitted
 {
     background-image: linear-gradient( rgb(188, 136, 255), rgb(188, 153, 255), rgb(188, 160, 255));
     width: 100%;
     height: 70%;
 }
+
 h1
 {
     font-size: 72px;
@@ -29,30 +32,35 @@ h1
     margin-top: 4px;
     margin-bottom: 0;
 }
+
 #MyJourney
 {
     background-image: linear-gradient( rgb(188, 160, 255),  rgb(188, 160, 255));
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #MyJourneyH1
 {
     font-size: 32px;
     text-align: center;
     margin-right: 0;
 }
+
 #MyJourneyText
 {
     margin-right: 0;
     padding-left: 1%;
     color: white;
 }
+
 #SocialMediaLink
 {
     background-color: rgb(188, 136, 255);
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #SocialMediaLinkText
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -63,12 +71,14 @@ h1
     padding-left: 2%;
     text-align: center;
 }
+
 #InstaLink
 {
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
+
 .Menu
 {
     max-width: 100%;
@@ -76,12 +86,14 @@ h1
     align-content: center;
     padding-left: 0;
 }
+
 nav ul li
 {
     display: inline;
     font-size: 24px;
     padding: 0% 10% 0% 10%;
 }
+
 nav ul li a
 {
     width: 100%;
@@ -90,6 +102,7 @@ nav ul li a
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #MenuBar
 {
     background-color: rgb(188, 136, 255);
@@ -101,7 +114,7 @@ nav ul li a
 }
 
 @media(max-width: 770px)
-    {
+{
     #WholePage
     {
         width: 100%;

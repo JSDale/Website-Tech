@@ -57,11 +57,13 @@ h1
 {
     margin-bottom: 0;
 }
+
 ul
 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #HairProducts
 {
     background-image: linear-gradient(rgb(188, 160, 255),  rgb(188, 153, 255), rgb(188, 136, 255));
@@ -69,12 +71,14 @@ ul
     height: 75%;
     padding-left: 0.75%;
 }
+
 #HairProductsH1
 {
     font-size: 60px;
     text-align: left;
     margin-right: 0;
 }
+
 #HairProductsInUse
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -82,12 +86,14 @@ ul
     font-size: 24px;
     margin-bottom: 0;
 }
+
 #SocialMediaLink
 {
     background-color: rgb(188, 136, 255);
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #SocialMediaLinkText
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -97,6 +103,7 @@ ul
     margin-bottom: 0;
     padding-left: 2%;
 }
+
 #InstaLink
 {
     font-size: 24px;
