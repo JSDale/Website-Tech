@@ -1,4 +1,5 @@
 # Website Technology Documentation
 ## 1.1.1 Background Information on the Project
 The website I have created is a Hair Care blog. For a while, my partner has considered trying to become a ‘Hair Blogger’ in her personal time as hair care is something she really cares about. Over the past year she has done a tonne of research into her hair type and how to keep it healthy. She then took to Instagram and created an account to post images of her hair at its different stages. After a month or so she managed to gain 100+ followers and decided to write to a blog to help people who were in her situation a year ago. She felt that a lot of people want to get their hair looking healthy, but don’t have the time or money to try things out. The blog will tell the story her and her hair have gone through, inspiring others to go on a journey with their hair. There will also be a “Contact Me” page so that if any readers wish to know more, they can. 
-
+## 1.1.2 Wire Frames
+In the same directory tree as this document is a folder named WireFrames, there you can find the wire frame models of the website for both mobile and desktop site.
