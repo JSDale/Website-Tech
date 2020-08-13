@@ -9,9 +9,8 @@ The color scheme for this website was easy to choose, as the Instagram account m
 To conform with W3C, I used their Nu Html Checker (found here - https://validator.w3.org/ ) this goes through the html of a webpage and spots any errors, I used the upload file option. The Home page only had a few issues, some ids needed to be changed to classes and there were comments that needed taken out. I also got a colleague (who is a web developer turned software engineer) to code review it.
 ## 1.1.5 GDPR
 I created a simple privacy policy web page, if this were a webaite being used in the real world, I would hire a lawyer to write the privacy policy and I would just format the provacy policy in html to continue with the theme. If the data was stored, when the reader submits their personal information an auto-reply email will be sent to them containing a link to information concerining the 8 individual rights. The form on the website is already an opt-in form as their data won't be sent untill they click "submit".
-
 ## 1.1.6 Distance Selling
-
+Currently, no money gets taken from the readers so distance selling doesn't apply here.
 ## 1.1.7 Evaluation
 The reason for creating the website was to create a place for my partner to write about her hair journey and for others to read it and be inspired. I would say I tackled a good 80% of the problem. The other 20% lies more with the back end of the website for example, it would be nice to have a set up the submit button to send an email to a dedicated email address containing the information that the reader entered. I would have also been good to implement an auto-reply email to the reader; when they press submit, they get an email saying something thanks for getting in contact I will reply shortly.  The other 5% would be sorting out legal documentation needed for the website (as data would be stored). A privacy policy would need to be written up and then made accessible to the readers, I have created a short privacy policy for the current website and is doesn’t store any data it just says that, this doesn’t have any legal accuracies and couldn’t be used as a defence in a court of law.
 ### 
