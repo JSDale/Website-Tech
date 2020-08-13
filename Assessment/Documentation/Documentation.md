@@ -8,7 +8,7 @@ The color scheme for this website was easy to choose, as the Instagram account m
 ## 1.1.4 Accessibility 
 To conform with W3C, I used their Nu Html Checker (found here - https://validator.w3.org/ ) this goes through the html of a webpage and spots any errors, I used the upload file option. The Home page only had a few issues, some ids needed to be changed to classes and there were comments that needed taken out. I also got a colleague (who is a web developer turned software engineer) to code review it.
 ## 1.1.5 GDPR
-I created a simple privacy policy web page, if this were a webaite being used in the real world, I would hire a lawyer to write the privacy policy and I would just format the provacy policy in html to continue with the theme.
+I created a simple privacy policy web page, if this were a webaite being used in the real world, I would hire a lawyer to write the privacy policy and I would just format the provacy policy in html to continue with the theme. If the data was stored, when the reader submits their personal information an auto-reply email will be sent to them containing a link to information concerining the 8 individual rights. The form on the website is already an opt-in form as their data won't be sent untill they click "submit".
 
 ## 1.1.6 Distance Selling
 
