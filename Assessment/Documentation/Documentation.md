@@ -8,7 +8,9 @@ The color scheme for this website was easy to choose, as the Instagram account m
 ## 1.1.4 Accessibility 
 To conform with W3C, I used their Nu Html Checker (found here - https://validator.w3.org/ ) this goes through the html of a webpage and spots any errors, I used the upload file option. The Home page only had a few issues, some ids needed to be changed to classes and there were comments that needed taken out. I also got a colleague (who is a web developer turned software engineer) to code review it.
 ## 1.1.5 GDPR
-I created a simple privacy policy web page, if this were a webaite being used in the real world, I would hire a lawyer to write the privacy policy and I would just format the provacy policy in html to continue with the theme. If the data was stored, when the reader submits their personal information an auto-reply email will be sent to them containing a link to information concerining the 8 individual rights. The form on the website is already an opt-in form as their data won't be sent untill they click "submit".
+I created a simple privacy policy web page, if this were a webaite being used in the real world, I would hire a lawyer to write the privacy policy and I would just format the provacy policy in html to continue with the theme. If the data was stored, when the reader submits their personal information an auto-reply email will be sent to them containing a link to information concerining the 8 individual rights. According to https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/ the website has one month to send information regarding the 8 individual rights, so an auto-reply email with an embeded link seems the easiest way as that allows people who are interested in the legal side of the website to read up on it, but abstracts it away from the majority of customers who won't care.
+### 
+The form on the website is already an opt-in form as their data won't be sent untill they click "submit".
 ## 1.1.6 Distance Selling
 Currently, no money gets taken from the readers so distance selling doesn't apply here.
 ## 1.1.7 Evaluation
