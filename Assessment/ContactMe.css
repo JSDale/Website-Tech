@@ -35,6 +35,16 @@ h1
     margin-bottom: 0;
 }
 
+.PageHeadings
+{
+    font-size: 60px;
+    text-align: left;
+    margin-right: 0;
+    color: white;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #HowToContact
 {
     background-image: linear-gradient( rgb(188, 160, 255), rgb(188, 165, 255),  rgb(188, 160, 255));
@@ -46,7 +56,7 @@ h1
     margin-right: 0;
 }
 
-#HowToContactH1
+#HowToContactHeading
 {
     font-size: 60px;
     text-align: left;
@@ -70,7 +80,7 @@ h1
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#GetInContactH1
+#GetInContactHeading
 {
     font-size: 60px;
     text-align: left;
@@ -230,7 +240,7 @@ nav ul li a
         padding: 0% 2% 0% 2%;
     }
 
-    #HomeHeading
+    #ContactMeHeading
     {
         max-width: 100%;
         padding-left: 8%;
@@ -241,7 +251,17 @@ nav ul li a
         font-size: 32px;
     }
 
-    #HowToContactH1
+    .PageHeadings
+    {
+        font-size: 60px;
+        text-align: left;
+        margin-right: 0;
+        color: white;
+        margin-top: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #HowToContactHeading
     {
         font-size: 28px;
     }
@@ -256,7 +276,7 @@ nav ul li a
         height: 700px;
     }
 
-    #GetInContactH1
+    #GetInContactHeading
     {
         font-size: 28px;
     }
