@@ -41,7 +41,18 @@ h1
     padding-left: 0.75%;
     margin-right: 0;
 }
-#RuleOfThumbH1
+
+.PageHeadings
+{
+    font-size: 60px;
+    text-align: left;
+    margin-right: 0;
+    color: white;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#RuleOfThumbHeading
 {
     font-size: 60px;
     text-align: left;
@@ -72,7 +83,7 @@ ul
     padding-left: 0.75%;
 }
 
-#HairProductsH1
+#HairProductsHeading
 {
     font-size: 60px;
     text-align: left;
@@ -228,7 +239,7 @@ nav ul li a
         font-size: 32px;
     }
 
-    #RuleOfThumbH1
+    #RuleOfThumbHeading
     {
         font-size: 28px;
     }
@@ -238,7 +249,7 @@ nav ul li a
         font-size: 20px;
     }
 
-    #HairProductsH1
+    #HairProductsHeading
     {
         font-size: 28px;
     }

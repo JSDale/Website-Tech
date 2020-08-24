@@ -33,14 +33,24 @@ h1
     margin-bottom: 0;
 }
 
-#MyJourney
+.PageHeadings
 {
-    background-image: linear-gradient( rgb(188, 160, 255),  rgb(188, 160, 255));
-    height: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 4px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
 }
 
-#MyJourneyH1
+#Responce
+{
+    background-image: linear-gradient( rgb(188, 160, 255),  rgb(188, 160, 255));
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+#ResponceHeading
 {
     font-size: 32px;
     text-align: center;
@@ -196,9 +206,10 @@ nav ul li a
         font-size: 32px;
     }
 
-    #MyJourneyH1
+    #ResponceHeading
     {
-        font-size: 28px;
+        font-size: 22px;
+        height: 100%;
     }
 
     #MyJourneyText
